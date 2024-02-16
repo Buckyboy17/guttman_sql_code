@@ -4,7 +4,7 @@ IF EXISTS 'admin_001'@'%';
 SELECT 'ADDING USER admin_001' AS 'INSTALLATION PROGRESSING';
 
 CREATE user
-IF NOT EXISTS 'admin_001'@'%'
+IF NOT EXISTS 'admin_001'@'%';
 IDENTIFIED BY 'guttmanGrizzlies_2024'
 
 with
